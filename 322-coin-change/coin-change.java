@@ -37,7 +37,11 @@ class Solution {
             }
         }
         int result = solve(coins, n - 1, amount, dp);
-        return (result == Integer.MAX_VALUE / 2) ? -1 : result;
+        if (result == Integer.MAX_VALUE / 2){
+            return -1;
+        }
+        else 
+        return result;
     }
        
     }
