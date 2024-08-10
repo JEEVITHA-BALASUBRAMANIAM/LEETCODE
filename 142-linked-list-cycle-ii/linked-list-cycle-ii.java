@@ -6,19 +6,19 @@ public class Solution
         {
              return null;
         }
-         ListNode temp = head; 
-         int index = 0; 
-         HashMap<ListNode,Integer> map = new HashMap<>(); 
-         while(temp!=null)
-         {
-             if(map.containsKey(temp))
-             {
-               return temp;
-             } 
-             map.put(temp,index); 
-             temp = temp.next; 
-             index++;
-         } 
+         ListNode fast = head, slow = head;
+         while(fast!=null && fast.next!=null){
+             fast=fast.next.next;
+             slow=slow.next;
+             if(fast==slow){
+                slow=head;
+                while(slow!=fast){
+                    fast=fast.next;
+                    slow=slow.next;
+                    }
+                    return slow;
+                }
+             }              
          return null;
     }
 }
