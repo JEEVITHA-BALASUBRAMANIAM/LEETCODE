@@ -1,8 +1,4 @@
-import java.util.Arrays;
-
 class Solution {
-   
-
     public int solve(String word1, String word2, int i, int j,int[][] dp) {
         
         if (i < 0) {
