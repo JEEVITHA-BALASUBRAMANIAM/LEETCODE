@@ -4,7 +4,7 @@ class Solution {
             return head;
         }
 
-        ListNode dummy = new ListNode(0);
+        ListNode dummy = new ListNode(-1);
         dummy.next = head;
         ListNode prev = dummy;
 
