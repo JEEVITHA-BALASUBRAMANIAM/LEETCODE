@@ -29,7 +29,7 @@ class Solution {
         return dummy.next;
     }
 
-    private ListNode reverse(ListNode head) {
+    public static ListNode reverse(ListNode head) {
         ListNode p = head, q = null, r = null;
         while (p != null) {
             r = q;
