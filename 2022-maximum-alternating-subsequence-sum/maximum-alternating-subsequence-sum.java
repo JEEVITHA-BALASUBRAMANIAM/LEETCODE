@@ -9,7 +9,7 @@ class Solution {
             long newOddSum = Math.max(oddSum, evenSum - nums[i]);
     
             evenSum = newEvenSum;
-            oddSum = newOddSum;
+            oddSum=newOddSum;
         }
         return evenSum;
     }
