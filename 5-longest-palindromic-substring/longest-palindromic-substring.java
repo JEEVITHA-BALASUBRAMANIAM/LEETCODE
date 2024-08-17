@@ -20,10 +20,15 @@ class Solution {
     }
    
     private int solve(String s,int left,int right) {
-        while (left>=0 && right<s.length() && s.charAt(left)==s.charAt(right)) {
-            left--;
-            right++;
-        }
+        int flag=0;
+        while(left>=0 && right<s.length() && s.charAt(left)==s.charAt(right)){
+             
+                   left--;
+                   right++;
+               
+            }
+        
+       
         return right-left-1;  
     }
 }
