@@ -5,6 +5,6 @@ class Solution {
         for(int i=a.length-1;i>=0;i--){
             str=str+a[i]+" ";
         }
-        return str.trim();
+        return str.trim();      
     }
 }
