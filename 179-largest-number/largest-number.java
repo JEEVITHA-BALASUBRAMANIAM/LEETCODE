@@ -8,7 +8,7 @@ class Solution {
             for (int j = 0; j < arr.length - i - 1; j++) {
                 String order1 = arr[j] + arr[j + 1];
                 String order2 = arr[j + 1] + arr[j];
-                if (order1.compareTo(order2)< 0) {
+                if (order1.compareTo(order2)<0) {
                     String temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
