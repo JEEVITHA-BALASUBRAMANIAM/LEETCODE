@@ -16,7 +16,7 @@ class Solution {
         }
         else{
             for(int i=start;i<=s.length()-1;i++){
-                if(ispalindrome(s,start,i)==true){
+                if(ispalindrome(s,start,i)==true){    //i represents end
                     list.add(s.substring(start,i+1));
                     solve(s,list,result,i+1);
                     list.remove(list.size()-1);
