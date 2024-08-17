@@ -20,7 +20,7 @@ class Solution {
     }
    
     private int solve(String s,int left,int right) {
-        int flag=0;
+        
         while(left>=0 && right<s.length() && s.charAt(left)==s.charAt(right)){
              
                    left--;
