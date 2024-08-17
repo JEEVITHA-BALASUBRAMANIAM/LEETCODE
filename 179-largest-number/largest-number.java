@@ -22,6 +22,6 @@ class Solution {
         for (String num : arr) {
             largestNumber.append(num);
         }
-return largestNumber.toString();
+      return largestNumber.toString();
     }
 }
