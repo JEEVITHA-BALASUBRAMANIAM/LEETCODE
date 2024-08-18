@@ -12,8 +12,7 @@ class Solution {
         if(s1.equals(s2))
          return true;
         else
-         return false;
-         
+         return false;   
     }
     public List<List<String>> groupAnagrams(String[] strs) {
        List<List<String>> res =new ArrayList<>();
@@ -48,9 +47,7 @@ class Solution {
              }
             arr[i]=1;
             arr[j]=1;
-           }
-         
-         
+           }              
         }
          if(c==0){
             if(arr[i]==0)
