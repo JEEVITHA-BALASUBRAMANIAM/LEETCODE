@@ -31,7 +31,7 @@ class Solution {
         return res;
        }
        int n=strs.length;
-       int visited[]=new int[n];
+       int arr[]=new int[n];
        for(int i=0;i<n;i++){
          List<String> li=new ArrayList<>();
           int c=0;
@@ -39,21 +39,21 @@ class Solution {
            
            if(isAnagram(strs[i],strs[j])){
             c=1;
-            if(visited[i]==0)
+            if(arr[i]==0)
              { li.add(strs[i]);
                
              }
-             if(visited[j]==0){
+             if(arr[j]==0){
                 li.add(strs[j]);
              }
-            visited[i]=1;
-            visited[j]=1;
+            arr[i]=1;
+            arr[j]=1;
            }
          
          
         }
          if(c==0){
-            if(visited[i]==0)
+            if(arr[i]==0)
               li.add(strs[i]);
            }
            if(!li.isEmpty())
