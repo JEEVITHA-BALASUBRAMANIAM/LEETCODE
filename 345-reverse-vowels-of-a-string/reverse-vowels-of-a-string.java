@@ -25,7 +25,7 @@ class Solution {
        return h; 
     }
     public static boolean isVowel(char d){
-        boolean j=false;
+     boolean j=false;
      char b[]={'a','e','i','o','u','A','E','I','O','U'};
      for(int i=0;i<b.length;i++){
         if(d==b[i])
