@@ -15,12 +15,29 @@ class Solution {
     //     return length;
     // }
    // }
-   String n="";
-    String[] arr=s.split(" ");
-    for(int i=0;i<arr.length;i++){
-         n=arr[arr.length-1];
-    }
-    return n.length();
+
+
+//    String n="";
+//     String[] arr=s.split(" ");
+//     for(int i=0;i<arr.length;i++){
+//          n=arr[arr.length-1];
+//     }
+//     return n.length();
+
+
+
+
+
+
+
+
+
+      String str="";
+      String[] arr=s.split(" ");
+      for(int i=0;i<arr.length;i++){
+           str=arr[arr.length-1];
+      }
+      return str.length();
 }
 }
     
