@@ -7,6 +7,7 @@ class Solution {
                 count++;
             }
         }
+        
         for(int i=count;i<nums.length;i++){
             nums[i]=0;
         }
