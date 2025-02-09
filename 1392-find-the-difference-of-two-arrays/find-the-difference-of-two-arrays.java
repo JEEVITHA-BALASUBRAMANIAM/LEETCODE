@@ -4,7 +4,7 @@ class Solution {
           ArrayList<Integer> a=new ArrayList<>();
           HashSet<Integer> b=new HashSet<>();
           ArrayList<Integer> c=new ArrayList<>();
-           HashSet<Integer> d=new HashSet<>();
+          HashSet<Integer> d=new HashSet<>();
           for(int s:nums1){
             a.add(s);
           }
