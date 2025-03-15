@@ -63,8 +63,9 @@ for(i=right;i>=left;i--){
 li.add(mat[bottom][i]); 
 }
 }
-if(left<=right){
+
 bottom--;
+if(left<=right){
 for( i=bottom;i>=top;i--){
 li.add(mat[i][left]);
 }
